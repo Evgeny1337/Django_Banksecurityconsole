@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 4. Создайте файл `.env` в корне проекта и добавьте в него следующие переменные среды:
 
-- DATABASEURL=`postgres://username:password@localhost:5432/mydatabase`
+- DATABASE_URL=`postgres://username:password@localhost:5432/mydatabase`
 - DEBUG=True # или False в зависимости от окружения
 - ALLOWED_HOSTS='localhost,127.0.0.1,..'
 - SECRET_KEY=вашсекретныйключ
